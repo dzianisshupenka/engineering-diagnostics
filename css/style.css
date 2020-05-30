@@ -443,8 +443,9 @@
     height: 27px;
     font-family: Proxima Nova;
     font-size: 16px;
-    line-height: 23px;
+    line-height: 27px;
     letter-spacing: 3px;
+    text-align: center;
     text-transform: uppercase;
     color: #151515;
     background: #FEE040;
