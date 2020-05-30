@@ -1,0 +1,21 @@
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src:url('./../fonts/ProximaNova-Regular.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src:url('./../fonts/Gilroy-Regular.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src:url('./../fonts/BebasNeueRegular.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
