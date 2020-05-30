@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/jquery.scrollbar.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <header class="hero_header">
+                <hr class="header_line">
+                <div>
+                    <a href="#">
+                        <img class="burger" src="./img/burger.png" alt="menu">
+                    </a>
+                    <a href="#">
+                        <img class="logo" src="./img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div>
+                </div>
+                <div class="contacts">
+                    <div>
+                        <span class="mail_description">Пишите нам на email</span>
+                        <img src="./img/mail.png" alt="mail">
+                        <a class="mail_adress" href="mailto: info@diagnistics.by">info@diagnistics.by</a>
+                    </div>
+                    <div class="phone">
+                        <img src="./img/phone.png" alt="phone">
+                        <span class="phone_description">Есть вопросы? Звоните!</span>
+                        <a class="phone_number" href="tel: +375294564545">+375 (29) 456-45-45</a>
+                    </div>
+                </div>
+            </header>
+            <section class="header_content">
+                <div class="content">
+                    <div class="content_description">
+                        <h1>
+                            Независимое обследование зданий и сооружений
+                        </h1>
+                        <div class="content_subdescription">
+                            антенн, труб, теплосетей, канализаций и других объектов строительства
+                        </div>
+                    </div>
+                    <div class="content_order">
+                        <button class="content_btn">
+                            <img src="./img/download-btn.png" alt="btn_img">
+                            получить коммерческое
+                        </button>
+                        <div class="button_description">
+                            Отправьте техзадание и получите коммерческое предложение в течении 15 минут на свой email или в мессенджер
+                        </div>
+                    </div>
+                </div>
+                <div class="content_bottom">
+                    <div class="features">
+                        <div class="feature">
+                            <img src="./img/01 (Stroke).png" alt="01">
+                            <span class="feature_description">Начинаем работать без аванса</span>
+                        </div>
+                        <div class="feature">
+                            <img src="./img/02 (Stroke).png" alt="02">
+                            <span class="feature_description">Предоставляем отсрочку платежа</span>
+                        </div>
+                        <div class="feature">
+                            <img src="./img/03 (Stroke).png" alt="03">
+                            <span class="feature_description">Всегда называем справедливую цену</span>
+                        </div>
+                    </div>
+                    <a class="content_video" href="#"><img src="./img/video.png" alt="watch_video"></a>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section class="why_we">
+            <div class="tv_img_container">
+                <img class="tv_img" src="./img/tv.png" alt="tv">
+            </div>
+            <div class="why_we_content">
+                <div class="why_we_left">
+                    <div class="why_we_left_content">
+                        <h2>Мы работаем быстро и наши отчеты проходят согласование с первого раза</h2>
+                        <div class="why_we_left_content_text">Над вашим объектом работает целая команда: 3 ГИПа (главных инженеров проектов) с опытом работы от 6 лет и 2 штатных сотрудника для камеральных работ</div>
+                    </div>
+                </div>
+                <div class="why_we_right">
+                    <div class="why_we_right_content">
+                        <h3>Вы и Ваши архитекторы получаете:</h3>
+                        <div class="why_we_right_content_item">
+                            <img src="./img/icon.png" alt="icon"> 
+                            <span class="why_we_right_content_text"> Отчет на который на 100% можно положиться</span>
+                        </div>
+                        <div class="why_we_right_content_item">
+                            <img src="./img/icon.png" alt="icon"> 
+                            <span class="why_we_right_content_text"> Экономию времени и прогнозируемость сроков</span>
+                        </div>
+                        <div class="why_we_right_content_item">
+                            <img src="./img/icon.png" alt="icon"> 
+                            <span class="why_we_right_content_text"> Предварительные результаты сразу на месте</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <div class="services_header">
+                <h3>услуги</h3>
+                <h2>Выполняем как комплексное обследование, так и отдельные виды работ</h2>
+            </div>
+            <div class="service_scroll_list scrollbar-dynamic" id="scroll">
+                <div class="service_item">
+                    <div class="shadow"></div>
+                    <img src="./img/photo-house-project.png" alt="item1">
+                    <div class="service_item_header">
+                        Общее обследование
+                    </div>
+                    <div class="service_item_text">
+                        Экспертиза отдельных конструкций, обмерные работы, определение прочности, расчет несущей способности и т.д.
+                    </div>
+                    <div class="service_item_more">
+                        <a href="#"> подробнее <img src="./img/arrow (Stroke).png" alt="arrow"> </a>
+                    </div>
+                </div>
+                <div class="service_item">
+                    <div class="shadow"></div>
+                    <img src="./img/photo-vision.png" alt="item2">
+                    <div class="service_item_header">
+                        Тепловизионная съемка
+                    </div>
+                    <div class="service_item_text">
+                        Цветная телевизионная съемка внутренней поверхности любых протяженных объектов до 250 метров
+                    </div>
+                    <div class="service_item_more">
+                        <a href="#"> подробнее <img src="./img/arrow (Stroke).png" alt="arrow"> </a>
+                    </div>
+                </div>
+                <div class="service_item">
+                    <div class="shadow"></div>
+                    <img src="./img/item3.jpg" alt="item3">
+                    <div class="service_item_header">
+                        Телеинспекция инженерных сетей
+                    </div>
+                    <div class="service_item_text">
+                        Исследование системы отопления, вентиляции и кондиционирования, а также оценка энергоэффективности здания
+                    </div>
+                    <div class="service_item_more">
+                        <a href="#"> подробнее <img src="./img/arrow (Stroke).png" alt="arrow"> </a>
+                    </div>
+                </div>
+                <div class="service_item">
+                    <div class="shadow"></div>
+                    <img src="./img/item4.jpg" alt="item4">
+                    <div class="service_item_header">
+                        Общее обследование
+                    </div>
+                    <div class="service_item_text">
+                        Экспертиза отдельных конструкций, обмерные работы, определение прочности, расчет несущей способности и т.д.
+                    </div>
+                    <div class="service_item_more">
+                        <a href="#"> подробнее <img src="./img/arrow (Stroke).png" alt="arrow"> </a>
+                    </div>
+                </div>
+                <div class="service_item">
+                    <div class="shadow"></div>
+                    <img src="./img/item5.jpg" alt="item5">
+                    <div class="service_item_header">
+                        Диагностика высотных сооружений
+                    </div>
+                    <div class="service_item_text">
+                        Оценка состояния антенн и дымовых труб при помощи альпинистов и квадрокоптеров с 30-кратным зумом
+                    </div>
+                    <div class="service_item_more">
+                        <a href="#"> подробнее <img src="./img/arrow (Stroke).png" alt="arrow"> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="steps">
+        <div class="steps_header">
+            <h2 class="steps_header_text">Мы работаем в комплексе</h2>
+            <div class="steps_header_description">
+                чтобы Вы не тратили время на поиск и организацию множества подрядчиков
+            </div>
+        </div>
+        <div class="step1">
+            <div class="step1_left">
+                <img src="./img/henry-co-180108-unsplash.png" alt="step_work">
+            </div>
+            <div class="step1_right">
+                <div class="step1_header">
+                    <div class="step1_header_wrapper">
+                        <span class="step1_header_rect">шаг №1.</span>
+                        <h4 class="step1_header_main">Подготовительные работы</h4>
+                    </div>
+                    <div class="step1_header_text">
+                        Мы осматриваем здание, делаем замеры и проверяем наличие визуально заметных дефектов: трещин, коррозии, повреждения фундамента и т.д.
+                    </div>
+                </div>
+                <div class="step1_quote">
+                    <img src="./img/circle.png" alt="quote">
+                    <div class="quote_text">
+                        “Задача этого этапа получить максимально полное представление о конструкции здания, условиях его эксплуатации и возможных слабых местах“
+                    </div>
+                    <div class="quote_signature">
+                        Алексей, обследователь и главный инженер проектов
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollbar.min.js"></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery('.scrollbar-dynamic').scrollbar();
+    });
+    document.getElementById("scroll")
+        .addEventListener('wheel', function(event) {
+            if (event.deltaMode == event.DOM_DELTA_PIXEL) {
+            var modifier = 1;
+            } else if (event.deltaMode == event.DOM_DELTA_LINE) {
+            var modifier = parseInt(getComputedStyle(this).lineHeight);
+            } else if (event.deltaMode == event.DOM_DELTA_PAGE) {
+            var modifier = this.clientHeight;
+            }
+            if (event.deltaY != 0) {
+            this.scrollLeft += modifier * event.deltaY;
+            event.preventDefault();
+          }
+     });
+    </script>
+
+</body>
+</html>
